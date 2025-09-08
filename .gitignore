@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual envs
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large files
+*.h5
+*.pkl
+*.pt
+*.ckpt
+*.onnx
+*.zip
+*.tar
+*.gz
+*.csv
+*.npy
+*.npz
+/data/
+/models/
