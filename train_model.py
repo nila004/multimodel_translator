@@ -61,7 +61,7 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 
 # Train
-history = model.fit(X_train, y_train, epochs=10, batch_size=64,
+history = model.fit(X_train, y_train, epochs=35, batch_size=64,
                     validation_data=(X_test, y_test))
 
 # Save model
